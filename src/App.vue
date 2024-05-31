@@ -5,6 +5,11 @@ import AppLista from './components/AppLista.vue';
 
 export default {
     name: 'MyApp',
+    data() {
+        return {
+            test: 'test'
+        }
+    },
     components: {
         AppHeader,
         AppFooter,
@@ -16,6 +21,7 @@ export default {
 <template>
     <!--scrivo qui la mia struttura HTML-->
     <AppHeader />
+    <!--Main con dentro il tag per future bagine con main differente-->
     <main>
         <AppLista />
     </main>
