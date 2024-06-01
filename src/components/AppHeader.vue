@@ -14,10 +14,13 @@ export default {
 </script>
 
 <template>
-    <div>header</div>
-    <HeaderList />
-    <HeaderLogo />
-    <HeaderIcone />
+    <header>
+        <div class="container d-flex flex-command">
+            <HeaderList />
+            <HeaderLogo />
+            <HeaderIcone />
+        </div>
+    </header>
 </template>
 
 <style></style>

@@ -5,11 +5,15 @@ export default {
 </script>
 
 <template>
-    <ul>
-        <li>lista 1</li>
-        <li>lista 2</li>
-        <li>lista 3</li>
+    <ul class="d-flex">
+        <li>Donna</li>
+        <li>Uomo</li>
+        <li>Bambino</li>
     </ul>
 </template>
 
-<style></style>
+<style scoped>
+li {
+    padding: 0 5px;
+}
+</style>

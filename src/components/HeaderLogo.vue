@@ -5,7 +5,15 @@ export default {
 </script>
 
 <template>
-    <div>sarò un logo</div>
+    <div>
+        <img src="/img/boolean-logo.png" alt="logo">
+    </div>
 </template>
 
-<style></style>
+<style scoped>
+/*SCOPED = questo stile vive solo all' interno di questo componente */
+img {
+    height: 40px;
+    margin: 10px;
+}
+</style>
