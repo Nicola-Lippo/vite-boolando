@@ -1,0 +1,91 @@
+.riga {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.contenuto {
+    margin: 20px;
+}
+
+.img-shop {
+    width: 100%;
+}
+
+/* INIZIO PROPRIETA' ELEMENTI DI TESTO */
+
+.marchio {
+    font-size: 80%;
+}
+
+.prezzo {
+    color: red;
+    font-size: 80%;
+}
+
+.prezzo-vecchio {
+    text-decoration: line-through;
+    font-size: 80%;
+}
+
+/* FINE INIZIO PROPRIETA' ELEMENTI DI TESTO */
+
+/* INIZIO PROPRIETA' ETICHETTE MAIN */
+
+.img-shop {
+    position: relative;
+}
+
+.labels {
+    position: absolute;
+    bottom: 20px;
+
+}
+
+.label {
+    color: white;
+    font-size: 60%;
+    padding: 5px;
+    display: inline-block;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.cuore {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 10px;
+}
+
+/* FINE INIZIO PROPRIETA' ETICHETTE */
+/* INIZIO PROPRIETA' HOVER */
+
+.hover-img {
+    display: none;
+}
+
+.img-shop:hover .main-img {
+    display: none;
+}
+
+.img-shop:hover .hover-img {
+    display: inline;
+}
+
+.cuore:hover {
+    color: red;
+}
+
+/* FINE PROPRIETA' HOVER */

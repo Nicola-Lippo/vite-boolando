@@ -10,8 +10,9 @@ export default {
 </script>
 
 <template>
-    <div>lista main pagina corrente</div>
-    <ListaCard />
+    <div class="container">
+        <ListaCard />
+    </div>
 </template>
 
 <style></style>

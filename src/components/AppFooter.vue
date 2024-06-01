@@ -11,9 +11,12 @@ export default {
 </script>
 
 <template>
-    <div>footer</div>
-    <FooterText />
-    <FooterIcone />
+    <footer>
+        <div class="container d-flex flex-command">
+            <FooterText />
+            <FooterIcone />
+        </div>
+    </footer>
 </template>
 
 <style></style>

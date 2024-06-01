@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <div>testo in basso a sinistra</div>
+    <div><strong>Booleando S.r.l.</strong></div>
 </template>
 
 <style></style>
