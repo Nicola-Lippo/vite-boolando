@@ -1,12 +1,3 @@
-.riga {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-33 {
-    width: calc(100% / 3);
-}
-
 .contenuto {
     margin: 20px;
 }
@@ -76,7 +67,7 @@
 }
 
 .img-shop:hover .hover-img {
-    display: inline;
+    display: block;
 }
 
 .cuore:hover {

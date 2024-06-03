@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <div class="contenuto col-33">
+    <div class="contenuto">
         <div class="img-shop">
             <img class="img-shop main-img" :src="img" :alt="foto">
             <img class="img-shop hover-img" :src="backImage" :alt="foto">

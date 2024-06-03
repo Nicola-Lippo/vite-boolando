@@ -118,9 +118,22 @@ export default {
 
 <template>
     <div class="container">
-        <ListaCard v-for="(product, index) in products" :key="index" :img="product.frontImage" :img-h="product.backImage"
-            :marca="product.brand" :nome="product.name" :prezzo="product.price" />
+        <div class="riga">
+            <div class="col-33" v-for="(product, index) in products" :key="index">
+                <ListaCard :img="product.frontImage" :backImage="product.backImage" :marca="product.brand"
+                    :nome="product.name" :prezzo="product.price" />
+            </div>
+        </div>
     </div>
 </template>
 
-<style></style>
+<style scoped>
+.riga {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+</style>
